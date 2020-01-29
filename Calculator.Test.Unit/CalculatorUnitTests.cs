@@ -11,10 +11,11 @@ namespace Calculator.Test.Unit
     [TestFixture]
     class CalculatorUnitTests
     {
+        private CalculatorClass uut;
         [SetUp]
         public void SetUp()
         {
-            CalculatorClass uut = new CalculatorClass();
+            uut = new CalculatorClass();
         }
 
         #region Add Tests
@@ -22,7 +23,7 @@ namespace Calculator.Test.Unit
         public void Add_PositiveNumbers_Returns4()
         {
             //Act
-            double res = uut.CalculatorClass.Add(2, 2);
+            double res = uut.Add(2, 2);
 
             //Assert
             Assert.That(res, Is.EqualTo(4));
@@ -31,7 +32,7 @@ namespace Calculator.Test.Unit
         public void Add_NegativeNumbers_ReturnsNegative4()
         {
             //Act
-            double res = uut.CalculatorClass.Add(-2, -2);
+            double res = uut.Add(-2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(-4));
@@ -40,7 +41,7 @@ namespace Calculator.Test.Unit
         public void Add_PositiveAndNegativeNumbers_Returns0()
         {
             //Act
-            double res = uut.CalculatorClass.Add(2, -2);
+            double res = uut.Add(2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0));
@@ -49,7 +50,7 @@ namespace Calculator.Test.Unit
         public void Add_NegativeAndPositiveNumbers_Returns0()
         {
             //Act
-            double res = uut.CalculatorClass.Add(-2, 2);
+            double res = uut.Add(-2, 2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0));
@@ -70,7 +71,7 @@ namespace Calculator.Test.Unit
         public void SubtractTest(double a, double b, double expected)
         {
             //Act
-            double res = CalculatorClass.Subtract(a, b);
+            double res = uut.Subtract(a, b);
 
             //Assert
             Assert.That(res, Is.EqualTo(expected));
@@ -85,7 +86,7 @@ namespace Calculator.Test.Unit
         public void Multiply_PositiveNumbers_Return9()
         {
             //Act
-            double res = CalculatorClass.Multiply(3, 3);
+            double res = uut.Multiply(3, 3);
 
             //Assert
             Assert.That(res, Is.EqualTo(9));
@@ -93,7 +94,7 @@ namespace Calculator.Test.Unit
         public void Multiply_NegativeNumbers_Return9()
         {
             //Act
-            double res = CalculatorClass.Multiply(-3, -3);
+            double res = uut.Multiply(-3, -3);
 
             //Assert
             Assert.That(res, Is.EqualTo(9));
@@ -101,7 +102,7 @@ namespace Calculator.Test.Unit
         public void Multiply_PositiveAndNegativeNumbers_ReturnNegative9()
         {
             //Act
-            double res = CalculatorClass.Multiply(3, -3);
+            double res = uut.Multiply(3, -3);
 
             //Assert
             Assert.That(res, Is.EqualTo(9));
@@ -109,7 +110,7 @@ namespace Calculator.Test.Unit
         public void Multiply_NegativeAndPositiveNumbers_ReturnNegative9()
         {
             //Act
-            double res = CalculatorClass.Multiply(-3, 3);
+            double res = uut.Multiply(-3, 3);
 
             //Assert
             Assert.That(res, Is.EqualTo(9));
@@ -123,7 +124,7 @@ namespace Calculator.Test.Unit
         public void Power_PositiveNumbers_Returns4()
         {
             //Act
-            double res = CalculatorClass.Power(2, 2);
+            double res = uut.Power(2, 2);
 
             //Assert
             Assert.That(res,Is.EqualTo(4));
@@ -132,7 +133,7 @@ namespace Calculator.Test.Unit
         public void Power_NegativeNumbers_ReturnsPoint25()
         {
             //Act
-            double res = CalculatorClass.Power(-2, -2);
+            double res = uut.Power(-2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0.25));
@@ -141,7 +142,7 @@ namespace Calculator.Test.Unit
         public void Power_PositiveAndNegativeNumbers_ReturnsPoint25()
         {
             //Act
-            double res = CalculatorClass.Power(2, -2);
+            double res = uut.Power(2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0.25));
@@ -150,7 +151,7 @@ namespace Calculator.Test.Unit
         public void Power_NegativeAndPositiveNumbers_Returns4()
         {
             //Act
-            double res = CalculatorClass.Power(-2, 2);
+            double res = uut.Power(-2, 2);
 
             //Assert
             Assert.That(res, Is.EqualTo(4));
@@ -160,7 +161,7 @@ namespace Calculator.Test.Unit
         public void Power_0thPower_Returns1()
         {
             //Act
-            double res = CalculatorClass.Power(2, 0);
+            double res = uut.Power(2, 0);
 
             //Assert
             Assert.That(res, Is.EqualTo(1));
