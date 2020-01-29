@@ -1,0 +1,6 @@
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\Calculator.exe
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\Calculator.pdb
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.exe
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.pdb
