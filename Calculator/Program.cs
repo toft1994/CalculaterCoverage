@@ -8,6 +8,8 @@ namespace Calculator
         {
             Console.WriteLine("Welcome to the calculator!");
 
+            CalculatorClass Calculator = new CalculatorClass();
+
             while (true)
             {
                 Console.WriteLine("Choose operation:");
@@ -30,19 +32,19 @@ namespace Calculator
                 switch (switchVar)
                 {
                     case 1:
-                        result = CalculatorClass.Add(a, b);
+                        result = Calculator.Add(a, b);
                         break;
                     case 2:
-                        result = CalculatorClass.Subtract(a, b);
+                        result = Calculator.Subtract(a, b);
                         break;
                     case 3:
-                        result = CalculatorClass.Multiply(a, b);
+                        result = Calculator.Multiply(a, b);
                         break;
                     case 4:
-                        result = CalculatorClass.Divide(a, b);
+                        result = Calculator.Divide(a, b);
                         break;
                     case 5:
-                        result = CalculatorClass.Power(a, b);
+                        result = Calculator.Power(a, b);
                         break;
                     default:
                         result = 0;

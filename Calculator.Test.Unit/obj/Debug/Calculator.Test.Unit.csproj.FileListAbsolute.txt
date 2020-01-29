@@ -10,3 +10,5 @@ C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calc
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.csproj.CopyComplete
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.dll
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.pdb
+C:\Users\jespe\Desktop\6 Semester\SWT\Repo\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.dll
+C:\Users\jespe\Desktop\6 Semester\SWT\Repo\Calculator.Test.Unit\obj\Debug\Calculator.Test.Unit.pdb
