@@ -12,10 +12,21 @@ namespace Calculator.Test.Unit
     class CalculatorUnitTests
     {
         private CalculatorClass uut;
+
         [SetUp]
         public void SetUp()
         {
             uut = new CalculatorClass();
+        }
+
+        [Test]
+        public void Clear_Test_AccumulatorIsZero()
+        {
+            //Act
+            uut.Clear();
+
+            //Assert
+            Assert.That(uut.Accumulator, Is.EqualTo(0));
         }
 
         #region Add Tests
