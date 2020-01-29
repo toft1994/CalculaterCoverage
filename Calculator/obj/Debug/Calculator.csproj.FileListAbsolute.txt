@@ -4,3 +4,7 @@ C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calc
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.exe
 C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.pdb
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\nunit.framework.dll
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\nunit.framework.pdb
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\bin\Debug\nunit.framework.xml
+C:\Users\wow12_000\OneDrive - Aarhus universitet\IKT\SWT\CalculatorSolution\Calculator\obj\Debug\Calculator.csproj.CopyComplete
