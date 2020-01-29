@@ -8,36 +8,36 @@ namespace Calculator
 {
     public class CalculatorClass
     {
-        public static void CalculatorClass()
+        public CalculatorClass()
         {
             Accumulator = 0;
         }
 
-        public static double Add(double a, double b)
+        public double Add(double a, double b)
         {
             Accumulator = a + b;
             return Accumulator;
         }
 
-        public static double Subtract(double a, double b)
+        public  double Subtract(double a, double b)
         {
             Accumulator = a - b;
             return Accumulator;
         }
 
-        public static double Multiply(double a, double b)
+        public  double Multiply(double a, double b)
         {
             Accumulator = a * b;
             return Accumulator;
         }
 
-        public static double Divide(double a, double b)
+        public  double Divide(double a, double b)
         {
             Accumulator = a / b;
             return Accumulator;
         }
 
-        public static double Power(double a, double b)
+        public  double Power(double a, double b)
         {
             Accumulator = Math.Pow(a, b);
             return Accumulator;
