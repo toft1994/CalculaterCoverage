@@ -14,7 +14,7 @@ namespace Calculator.Test.Unit
         [SetUp]
         public void SetUp()
         {
-            //Calculator is static, and doesn't need to be instantiated
+            CalculatorClass uut = new CalculatorClass();
         }
 
         #region Add Tests
@@ -22,7 +22,7 @@ namespace Calculator.Test.Unit
         public void Add_PositiveNumbers_Returns4()
         {
             //Act
-            double res = CalculatorClass.Add(2, 2);
+            double res = uut.CalculatorClass.Add(2, 2);
 
             //Assert
             Assert.That(res, Is.EqualTo(4));
@@ -31,7 +31,7 @@ namespace Calculator.Test.Unit
         public void Add_NegativeNumbers_ReturnsNegative4()
         {
             //Act
-            double res = CalculatorClass.Add(-2, -2);
+            double res = uut.CalculatorClass.Add(-2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(-4));
@@ -40,7 +40,7 @@ namespace Calculator.Test.Unit
         public void Add_PositiveAndNegativeNumbers_Returns0()
         {
             //Act
-            double res = CalculatorClass.Add(2, -2);
+            double res = uut.CalculatorClass.Add(2, -2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0));
@@ -49,7 +49,7 @@ namespace Calculator.Test.Unit
         public void Add_NegativeAndPositiveNumbers_Returns0()
         {
             //Act
-            double res = CalculatorClass.Add(-2, 2);
+            double res = uut.CalculatorClass.Add(-2, 2);
 
             //Assert
             Assert.That(res, Is.EqualTo(0));
