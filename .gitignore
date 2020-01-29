@@ -3,7 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-
+#Ignore that stupid packages file
+packages/
 
 # User-specific files
 *.rsuser
