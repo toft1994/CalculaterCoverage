@@ -37,7 +37,7 @@ namespace Calculator.Test.Unit
             double res = uut.Add(2, 2);
 
             //Assert
-            Assert.That(res, Is.EqualTo(3));
+            Assert.That(res, Is.EqualTo(4));
         }
         [Test]
         public void Add_NegativeNumbers_ReturnsNegative4()
