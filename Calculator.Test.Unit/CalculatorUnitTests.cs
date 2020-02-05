@@ -70,6 +70,28 @@ namespace Calculator.Test.Unit
 
         #endregion
 
+        #region Divide Tests
+
+        [TestCase(1, 1, 1)]
+        [TestCase(2, 1, 2)]
+        [TestCase(1, 2, 0.5)]
+        public void Divide_Test(double a, double b, double expected)
+        {
+            double res = uut.Divide(a, b);
+            Assert.That(res, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void Divide_DivideByZero_ThrowsException()
+        {
+            Assert.Throws<Exception>(delegate
+            {
+                uut.Divide(4, 0);
+            });
+        }
+
+        #endregion
+
         #region Subtract Tests
 
         //Using a test case to simplify running of many similar tests

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace Calculator
 {
@@ -41,7 +42,18 @@ namespace Calculator
                         result = Calculator.Multiply(a, b);
                         break;
                     case 4:
-                        result = Calculator.Divide(a, b);
+                        try
+                        {
+                            result = Calculator.Divide(a, b);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                        }
+                        finally
+                        {
+                            result = 0;
+                        }
                         break;
                     case 5:
                         result = Calculator.Power(a, b);

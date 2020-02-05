@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +34,11 @@ namespace Calculator
 
         public  double Divide(double a, double b)
         {
+            if (b == 0)
+            {
+                throw new Exception("Cant divide by zero");
+            }
+
             Accumulator = a / b;
             return Accumulator;
         }
