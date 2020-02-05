@@ -12,7 +12,7 @@ namespace Calculator.Test.Unit
     class CalculatorUnitTests
     {
         private CalculatorClass uut;
-        //HEj
+        
         [SetUp]
         public void SetUp()
         {
