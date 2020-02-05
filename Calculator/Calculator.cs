@@ -45,7 +45,7 @@ namespace Calculator
 
         public void Clear()
         {
-            Accumulator = 1;
+            Accumulator = 0;
         }
 
         public double Accumulator { get; private set; }
