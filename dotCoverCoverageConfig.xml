@@ -16,7 +16,8 @@
     <ExcludeFilters>
       <FilterEntry>
         <ModuleMask>nunit.framework</ModuleMask>
-        <ClassMask>*</ClassMask>
+        <ClassMask>*Calculator.Test.Unit</ClassMask>
+        <ClassMask>*Program</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
     </ExcludeFilters>
