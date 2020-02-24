@@ -15,7 +15,7 @@ namespace Calculator.Test.Unit
         
         [SetUp]
         public void SetUp()
-        {
+        { 
             uut = new CalculatorClass();
         }
 
