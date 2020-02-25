@@ -27,7 +27,7 @@
       </FilterEntry>
 
       <FilterEntry>
-        <ModuleMask>Calculator.Unit.Test</ModuleMask>
+        <ModuleMask>Calculator.Test.Unit</ModuleMask>
         <ClassMask>*</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
