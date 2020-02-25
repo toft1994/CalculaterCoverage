@@ -16,10 +16,10 @@
     <ExcludeFilters>
       <FilterEntry>
         <ModuleMask>nunit.framework</ModuleMask>
-        <ClassMask>Program</ClassMask>
-        <ClassMask>Calculator.Test.Unit</ClassMask>
         <ClassMask>*</ClassMask>
         <FunctionMask>*</FunctionMask>
+        <Function>Calculator.Test.Unit\..*</Function>
+        <Function>Calculator.Program\..*</Function>
       </FilterEntry>
     </ExcludeFilters>
   </Filters>
@@ -30,3 +30,4 @@
   </AttributeFilters>
   -->
 </AnalyseParams>
+
