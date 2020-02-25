@@ -20,14 +20,14 @@
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
 
-      <!--<FilterEntry>
+      <FilterEntry>
         <ModuleMask>Calculator</ModuleMask>
-        <ClassMask>*</ClassMask>
+        <ClassMask>Program</ClassMask>
         <FunctionMask>*</FunctionMask>
-      </FilterEntry>-->
+      </FilterEntry>
 
       <FilterEntry>
-        <ModuleMask>CalculatorUnitTest</ModuleMask>
+        <ModuleMask>Calculator.Unit.Test</ModuleMask>
         <ClassMask>*</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
