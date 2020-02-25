@@ -18,8 +18,18 @@
         <ModuleMask>nunit.framework</ModuleMask>
         <ClassMask>*</ClassMask>
         <FunctionMask>*</FunctionMask>
-        <Function>Calculator.Test.Unit\..*</Function>
-        <Function>Calculator.Program\..*</Function>
+      </FilterEntry>
+
+      <FilterEntry>
+        <ModuleMask>Calculator.Program</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
+      </FilterEntry>
+
+      <FilterEntry>
+        <ModuleMask>Calculator.Unit.Test</ModuleMask>
+        <ClassMask>*</ClassMask>
+        <FunctionMask>*</FunctionMask>
       </FilterEntry>
     </ExcludeFilters>
   </Filters>
@@ -30,4 +40,3 @@
   </AttributeFilters>
   -->
 </AnalyseParams>
-
