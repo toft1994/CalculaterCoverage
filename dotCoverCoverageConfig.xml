@@ -22,7 +22,7 @@
 
       <FilterEntry>
         <ModuleMask>Calculator</ModuleMask>
-        <ClassMask>Program</ClassMask>
+        <ClassMask>Calculator.Program</ClassMask>
         <FunctionMask>*</FunctionMask>
       </FilterEntry>
 
